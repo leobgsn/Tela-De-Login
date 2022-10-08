@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de login</title>
+</head>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+}
+
+
+.main {
+    height: 700px;
+    background: url("https://i.ibb.co/4WvRpPW/fundo-do-site.png") center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+
+}
+
+.main-child {
+    z-index: 10;
+    display: grid;
+    justify-items: center;
+   
+}
+
+.main h1 {
+    font-size: 50px;
+    max-width: 680px;
+    font-family: cursive;
+    color: white;
+
+}
+
+.form-cta {
+    display: block;
+    grid-template-columns: 10px 100px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+
+.form-cta input {
+    display: block;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-family: cursive;
+    margin-top: 10px;
+}
+
+.form-cta button {
+    outline: auto;
+    border: solid;
+    color: black;
+    font-size: 30px;
+    font-family: cursive;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+</style>
+
+<body>
+    <main class="main">
+        <div class="main-child">
+            <h1>Login</h1>
+            <form class="form-cta">
+                <input type="email" placeholder="Email:">
+                <input type="password" placeholder="Senha:">
+                <button>Entrar</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
