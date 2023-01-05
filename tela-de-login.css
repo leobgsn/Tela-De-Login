@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.main {
+    height: 700px;
+    background: url("/img/fundo\ do\ site.png") center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+
+}
+
+.main-child {
+    z-index: 10;
+    display: grid;
+    justify-items: center;
+   
+}
+
+.main h1 {
+    font-size: 50px;
+    max-width: 680px;
+    font-family: cursive;
+    color: white;
+
+}
+
+.form-cta {
+    display: block;
+    grid-template-columns: 10px 100px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+
+.form-cta input {
+    display: block;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-family: cursive;
+    margin-top: 10px;
+}
+
+.form-cta button {
+    outline: auto;
+    border: solid;
+    color: black;
+    font-size: 30px;
+    font-family: cursive;
+    border-radius: 5px;
+    margin-top: 10px;
+}
